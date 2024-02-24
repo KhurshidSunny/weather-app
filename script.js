@@ -143,10 +143,14 @@ searchPlaceEl.addEventListener("input", function (e) {
 
 searchBtn.addEventListener("click", function () {
   getWeatherData(cityName);
+  searchPlaceEl.value = "";
 });
 
 window.addEventListener("keydown", function (e) {
-  if (e.key === "Enter") getWeatherData(cityName);
+  if (e.key === "Enter") {
+    getWeatherData(cityName);
+    searchPlaceEl.value = "";
+  }
 });
 
 removeErrorMsgBtn.addEventListener("click", function () {
