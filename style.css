@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(41, 38, 38);
+}
+
+.app-container {
+  width: 30rem;
+  height: 43rem;
+  color: #fff;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom right, #fdabdd, #374a5a);
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-box {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.search-place {
+  width: 90%;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.search-icon {
+  background-color: white;
+  color: black;
+  padding: 17px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* weather information box */
+
+.weather-info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.temp {
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  justify-content: space-between;
+}
+.temp .max-temp,
+.feels-like {
+  font-size: 18px;
+}
+
+.weather-description {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: -20px;
+}
+
+.weather-info-box .weather-deg {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.weather-info-box .place {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.weather-img {
+  width: 130px;
+  margin: 0;
+}
+
+/* other details */
+.other-details {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.other-details img {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.humidity-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.info {
+  font-size: 25px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.wind-speed-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.wind-speed-box .wind-speed {
+  /* width: 130px; */
+}
+
+.error-msg {
+  width: 30rem;
+  height: 4rem;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+
+  border-radius: 12px;
+  color: white;
+  background-image: linear-gradient(to bottom right, #fdabdd, #374a5a);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+/* timing of the city details */
+.timing-details {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.time-box .img {
+  width: 50px;
+}
+
+.time-box .value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.error-msg .remove-btn {
+  /* margin-left: auto; */
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
