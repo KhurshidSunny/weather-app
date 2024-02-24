@@ -93,7 +93,7 @@ const displayDetails = async function (data, country) {
 
   surriseTimeEl.textContent = `${convertToTime(sunrise)} AM`;
   sunsetTimeEl.textContent = `${convertToTime(sunset)} PM`;
-  seaLevelEl.textContent = `${sea_level ? `${sea_level}(mb)` : "no sea"}`;
+  seaLevelEl.textContent = `${sea_level ? `${sea_level}(mb)` : 0}`;
 
   const imgUrl = await renderWeatherImg(icon);
   weatherImgEl.src = imgUrl;
