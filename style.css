@@ -14,10 +14,10 @@ body {
 }
 
 .app-container {
-  width: 30rem;
-  height: 43rem;
+  width: 20rem;
+  height: 30rem;
   color: #fff;
-  padding: 30px;
+  padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to bottom right, #fdabdd, #374a5a);
   border-radius: 12px;
@@ -26,23 +26,23 @@ body {
 
 .search-box {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   align-items: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .search-place {
   width: 90%;
-  padding: 15px 20px;
+  padding: 5px;
   border-radius: 30px;
   border: none;
   outline: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 .search-icon {
   background-color: white;
   color: black;
-  padding: 17px;
+  padding: 5px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -54,38 +54,40 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 40px 0;
+  margin: 10px 0;
 }
 
 .temp {
   display: flex;
   align-items: center;
-  width: 25rem;
+  width: 15rem;
   justify-content: space-between;
 }
 .temp .max-temp,
 .feels-like {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .weather-description {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
+  margin-top: 10px;
   margin-bottom: -20px;
 }
 
 .weather-info-box .weather-deg {
-  font-size: 60px;
+  font-size: 35px;
   font-weight: bold;
 }
 
 .weather-info-box .place {
-  font-size: 40px;
+  margin-top: 15px;
+  font-size: 25px;
   font-weight: 500;
 }
 
 .weather-img {
-  width: 130px;
+  width: 120px;
   margin: 0;
 }
 
@@ -95,13 +97,11 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  margin-top: -20px;
+  margin: 25px 0;
 }
 
 .other-details img {
-  width: 50px;
-  margin: 0;
-  padding: 0;
+  width: 30px;
 }
 
 .humidity-box {
@@ -112,11 +112,11 @@ body {
 }
 
 .info {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .description {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .wind-speed-box {
@@ -126,57 +126,53 @@ body {
   gap: 5px;
 }
 
-.wind-speed-box .wind-speed {
-  /* width: 130px; */
-}
-
 .error-msg {
-  width: 30rem;
-  height: 4rem;
+  width: 20rem;
+  height: 2rem;
   background-color: red;
   position: absolute;
-  top: 10px;
+  top: 5px;
 
-  border-radius: 12px;
+  border-radius: 8px;
   color: white;
   background-image: linear-gradient(to bottom right, #fdabdd, #374a5a);
   display: flex;
-  gap: 8px;
+  gap: 4px;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
-  padding: 0 15px;
+  font-size: 10px;
+  padding: 0 10px;
 }
 
 /* timing of the city details */
 .timing-details {
   width: 100%;
-  margin: 30px 0;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .time-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .time-box .img {
-  width: 50px;
+  width: 30px;
 }
 
 .time-box .value {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .error-msg .remove-btn {
   /* margin-left: auto; */
-  font-size: 25px;
+  font-size: 15px;
   cursor: pointer;
 }
 
